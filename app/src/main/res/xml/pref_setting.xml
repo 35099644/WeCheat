@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_setting">
+        <CheckBoxPreference
+            android:key="open"
+            android:title="@string/pref_open"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_app_setting">
+        <CheckBoxPreference
+            android:key="wechat"
+            android:title="@string/pref_open_wechat"
+            android:defaultValue="true"
+            android:dependency="open"/>
+
+        <CheckBoxPreference
+            android:key="qq"
+            android:title="@string/pref_open_qq"
+            android:defaultValue="true"
+            android:dependency="open"/>
+
+        <CheckBoxPreference
+            android:key="alipay"
+            android:title="@string/pref_open_alipay"
+            android:defaultValue="true"
+            android:dependency="open"/>
+
+        <CheckBoxPreference
+            android:key="weibo"
+            android:title="@string/pref_open_weibo"
+            android:defaultValue="true"
+            android:dependency="open"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_rate_setting">
+        <EditTextPreference
+            android:key="rate"
+            android:title="@string/pref_rate"
+            android:inputType="number"
+            android:summary="10"
+            android:defaultValue="10"
+            android:dependency="open"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_more">
+        <CheckBoxPreference
+            android:key="log"
+            android:title="@string/pref_log"
+            android:defaultValue="false"
+            android:dependency="open"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

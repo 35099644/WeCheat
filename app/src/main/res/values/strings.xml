@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">运动修改器</string>
+
+    <string name="pref_setting">设置</string>
+    <string name="pref_open">打开运动修改器</string>
+
+    <string name="pref_app_setting">应用设置</string>
+    <string name="pref_open_wechat">微信运动修改</string>
+    <string name="pref_open_qq">QQ运动修改</string>
+    <string name="pref_open_alipay">支付宝运动修改</string>
+    <string name="pref_open_weibo">微博运动修改</string>
+
+    <string name="pref_rate_setting">倍率设置</string>
+    <string name="pref_rate">倍率</string>
+
+    <string name="pref_more">更多</string>
+    <string name="pref_log">打开调试日志</string>
+</resources>
